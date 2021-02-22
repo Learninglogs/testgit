@@ -13,3 +13,6 @@ Github的使用
 如果你到github上改了，没pull到本地就会出问题
 
 https://www.cnblogs.com/whel0923/p/10782246.html
+
+github单个文件不能超过100M,这时候需要取舍一些文件
+
