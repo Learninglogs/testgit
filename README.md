@@ -10,7 +10,7 @@
 
 2. git安装
 
-   ![image-20210221203820373](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210221203820373.png)
+   ![image-20210221203820373](https://github.com/Learninglogs/testgit/blob/master/images/image-20210221203820373.png)
 
    全部默认选项即可（安装路径可自己选择）
 
