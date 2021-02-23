@@ -8,6 +8,8 @@
 
    linux之父发明的一个东西
 
+    git上传的单个文件不能超过100M
+
 2. git安装
 
    ![image-20210221203820373](https://github.com/Learninglogs/testgit/blob/master/images/image-20210221203820373.png)
@@ -458,17 +460,17 @@
 
 17. 模拟两个用户push和pull操作
 
-     ![image-20210223174406064](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223174406064.png)
+     ![image-20210223174406064](https://github.com/Learninglogs/testgit/blob/master/images/image-20210223174406064.png)
     
-      ![image-20210223175103606](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175103606.png)
+      ![image-20210223175103606](https://github.com/Learninglogs/testgit/blob/master/images/image-20210223175103606.png)
     
      如果在pull之前对代码进行了修改，会把修改的覆盖掉
     
-     ![image-20210223175356699](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175356699.png)
+     ![image-20210223175356699](https://github.com/Learninglogs/testgit/blob/master/images/image-20210223175356699.png)
     
      本地修改后在本地提交后再进行pull
     
-     ![image-20210223175620775](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175620775.png)
+     ![image-20210223175620775](https://github.com/Learninglogs/testgit/blob/master/images/image-20210223175620775.png)
     
      发生冲突，需手动解决并修改，然后再进行提交即可
     
