@@ -340,7 +340,7 @@
 
      合并 发生冲突，需要手动解决冲突。处理后，还需要提交一次
 
-14. push命令
+14. push（推）命令
 
       团队协同完成一个项目，共享同一份代码
 
@@ -378,11 +378,27 @@
 
          把本地的master分支，上传到服务器上的master分支中，做到一一对应
 
-15. pull命令
+15. pull（拉）命令
 
-      需要输入用户名及密码，我的上传失败，这个问题待解决
+       1.从服务器拿代码
 
-      
+     ```
+     git pull https://github.com/Learninglogs/testgit.git master
+     ```
+
+      新建空文件夹（空的仓储），git init 初始化，然后执行上述命令，即可下载服务器上的项目
+
+       不一定是master，要看具体是那个分支
+
+      2.克隆命令
+
+      	新建空文件夹（空的仓储），这里不需要初始化
+
+     ```
+     git clone https://github.com/Learninglogs/testgit.git
+     ```
+
+      克隆一般是用来第一次下载一个项目，同步一个项目一般用pull
 
 16. 通过ssh上传代码
 
@@ -414,12 +430,10 @@
 
       ![image-20210222200856554](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200856554.png)
 
-      
-
      ```
-     git push git@github.com:Learninglogs/testgit.git master
+ git push git@github.com:Learninglogs/testgit.git master
      ```
-
+    
       ![image-20210222201234372](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201234372.png)
 
       ![image-20210222201253250](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201253250.png)
@@ -444,5 +458,21 @@
 
 17. 模拟两个用户push和pull操作
 
-      
+     ![image-20210223174406064](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223174406064.png)
+    
+      ![image-20210223175103606](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175103606.png)
+    
+     如果在pull之前对代码进行了修改，会把修改的覆盖掉
+    
+     ![image-20210223175356699](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175356699.png)
+    
+     本地修改后在本地提交后再进行pull
+    
+     ![image-20210223175620775](C:\Users\12775\AppData\Roaming\Typora\typora-user-images\image-20210223175620775.png)
+    
+     发生冲突，需手动解决并修改，然后再进行提交即可
+    
+18. 学习视频
+
+      https://www.bilibili.com/video/BV12a4y1H7Rq?p=17
 
