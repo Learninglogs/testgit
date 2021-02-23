@@ -251,7 +251,7 @@
 
      所有版本的记录都会记录在这里面，需要哪个版本号，直接选取即可
 
-12.  创建分支，切换分支
+12. 创建分支，切换分支
 
       master（主线）
 
@@ -296,7 +296,9 @@
 
       ![image-20210222183858030](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222183858030.png)
 
-      切换回master![image-20210222184004637](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222184004637.png)
+      切换回master
+
+     ![image-20210222184004637](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222184004637.png)
 
       ![image-20210222184053035](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222184053035.png)
 
