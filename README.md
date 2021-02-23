@@ -404,59 +404,63 @@
 
 16. 通过ssh上传代码
 
-      ![image-20210222195804112](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222195804112.png)
+       ![image-20210222195804112](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222195804112.png)
 
-      不需要输入用户名及密码
+       不需要输入用户名及密码
 
-      公钥，私钥，两者之间是有关联的
+       公钥，私钥，两者之间是有关联的
 
-      生成公钥和私钥
+       生成公钥和私钥
 
-     ```
-     ssh-keygen -t rsa -C "1277590830@qq.com"
-     ```
+      ```
+      ssh-keygen -t rsa -C "1277590830@qq.com"
+      ```
 
-      ![image-20210222200206280](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200206280.png)
+       ![image-20210222200206280](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200206280.png)
 
-      ![image-20210222200306557](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200306557.png)
+       ![image-20210222200306557](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200306557.png)
 
-      ![image-20210222200435182](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200435182.png)
+       ![image-20210222200435182](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200435182.png)
 
-      ![image-20210222200534647](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200534647.png)
+       ![image-20210222200534647](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200534647.png)
 
-      打开公钥，然后复制
+       打开公钥，然后复制
 
-      ![image-20210222200637649](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200637649.png)
+       ![image-20210222200637649](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200637649.png)
 
-      ![image-20210222200749145](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200749145.png)
+       ![image-20210222200749145](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200749145.png)
 
-      ![image-20210222200856554](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200856554.png)
+       ![image-20210222200856554](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200856554.png)
 
-     ```
- git push git@github.com:Learninglogs/testgit.git master
-     ```
-    
-      ![image-20210222201234372](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201234372.png)
+     
 
-      ![image-20210222201253250](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201253250.png)
+      ```
+      git push git@github.com:Learninglogs/testgit.git master
+      ```
 
-      ![image-20210222201554633](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201554633.png)
+     
 
-      ![image-20210222201607714](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201607714.png)
+       ![image-20210222201234372](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201234372.png)
 
-      ![image-20210222201638637](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201638637.png)
+       ![image-20210222201253250](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201253250.png)
 
-      ![image-20210222201724559](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201724559.png)
+       ![image-20210222201554633](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201554633.png)
 
-     ![image-20210222202252495](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202252495.png)
+       ![image-20210222201607714](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201607714.png)
 
-      ![image-20210222202326558](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202326558.png)
+       ![image-20210222201638637](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201638637.png)
 
-      ![image-20210222202348803](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202348803.png)
+       ![image-20210222201724559](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222201724559.png)
 
-      ![image-20210222202430402](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202430402.png)
+      ![image-20210222202252495](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202252495.png)
 
-      ![image-20210222202800723](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202800723.png)
+       ![image-20210222202326558](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202326558.png)
+
+       ![image-20210222202348803](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202348803.png)
+
+       ![image-20210222202430402](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202430402.png)
+
+       ![image-20210222202800723](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222202800723.png)
 
 17. 模拟两个用户push和pull操作
 
