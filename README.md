@@ -424,7 +424,7 @@
 
        ![image-20210222200435182](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200435182.png)
 
-       ![image-20210222200534647](https://github.com/Learninglogs/testgit/blob/master/images/image-20210222200534647.png)
+      ![image-20210223181501423](https://github.com/Learninglogs/testgit/blob/master/images/image-20210223181501423.png)
 
        打开公钥，然后复制
 
